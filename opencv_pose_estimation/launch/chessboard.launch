@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="opencv_pose_estimation" type="chessboard_tracker" name="chessboard" output="screen"/>
+        <param name="SquareSize" type="double" value=".019"/>
+        <param name="BoardWidth" type="int" value="5"/>
+        <param name="BoardHeight" type="int" value="7"/>
+</launch>
